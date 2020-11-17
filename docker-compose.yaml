@@ -26,7 +26,7 @@ services:
     depends_on:
       - "nginx-proxy"
     environment:
-      - DEFAULT_EMAIL=vinicius.silva@coopersystem.com.br
+      - DEFAULT_EMAIL=user@email.com
     volumes:
       - certs:/etc/nginx/certs:rw
       - vhost:/etc/nginx/vhost.d
