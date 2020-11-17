@@ -27,7 +27,7 @@ services:
       - VIRTUAL_HOST=mysite.com
       - VIRTUAL_PORT=4000
       - LETSENCRYPT_HOST=mysite.com
-      - LETSENCRYPT_EMAIL=viniciusfesil@gmail.com
+      - LETSENCRYPT_EMAIL=user@email.com
 
 ```
 
